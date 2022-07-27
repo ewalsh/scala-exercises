@@ -130,7 +130,6 @@ class PlayBlackjack {
             continuePlaying = false
           }
           case _ => {
-            tmpSummary = ""
             println("no one has 21")
           }
         }
@@ -151,7 +150,6 @@ class PlayBlackjack {
           continuePlaying = false
         }
         case false => {
-          tmpSummary = ""
           println("no one has busted")
         }
       }
